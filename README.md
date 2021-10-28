@@ -12,10 +12,10 @@ Report data in order to justify the concluision that theatre catagory has the mo
 
 ## Analysis and Challenges
     
-  As per my analysis, Theatre catagory has most successful outcomes than other catagories and the least successful was food category. Also, Month of May-July has more successful outcomes and then it s†arted falling down.
+ As per my analysis, Theatre catagory has most successful outcomes than other catagories and the least successful was food category. Also, Month of May-July has more successful outcomes and then it s†arted falling down.
     
     
-    I have started analysis with the help of Excel functions. Here is the Organized data with some needed columns Using functions and Sorting. I have organized data using filters and formating, also used Freeze function for some clumn and raws for this Analysis using the dataset given:
+   I have started analysis with the help of Excel functions. Here is the Organized data with some needed columns Using functions and Sorting. I have organized data using filters and formating, also used Freeze function for some clumn and raws for this Analysis using the dataset given:
     
    <img width="1399" alt="Screen Shot 2021-10-25 at 9 36 17 PM" src="https://user-images.githubusercontent.com/92277581/138799913-be1859d2-5fa6-4d30-857b-dbecda42dd54.png">
 
@@ -23,7 +23,8 @@ Report data in order to justify the concluision that theatre catagory has the mo
   
 
 ### Analysis of Outcomes Based on Launch Date
-    This campaign had many different projects but Based on Launchdate, Theatre catagory has the most successful outcomes.
+    
+   This campaign had many different projects but Based on Launchdate, Theatre catagory has the most successful outcomes.
     
  I have started with creating column for "Years" using year() function to extract the year from the “Date Created Conversion” column. Then, created Pivot table with adding columns, raws and values based on "Parent Category" and "Years". Next, filtered the column labels to show only "successful" "failed" and "canceled".
 
@@ -85,7 +86,7 @@ Here is "Outcomes Based on Goal" to visualize the relationship between the goal-
 
 - What are some limitations of this dataset?
    
-     I think, in this dataset, there are no defined numbers to check how many people where working on a particular project and might be it contributes to the success or failure of the event.
+    I think, in this dataset, there are no defined numbers to check how many people where working on a particular project and might be it contributes to the success or failure of the event.
         
 
 - What are some other possible tables and/or graphs that we could create?
