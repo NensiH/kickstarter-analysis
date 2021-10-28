@@ -28,10 +28,14 @@ Report data in order to justify the concluision that theatre catagory has the mo
     
  I have started with creating column for "Years" using year() function to extract the year from the “Date Created Conversion” column. Then, created Pivot table with adding columns, raws and values based on "Parent Category" and "Years". Next, filtered the column labels to show only "successful" "failed" and "canceled".
 
-Here is the pivot table:
+
+ Here is the Pivot table for all the Parent categories outcomes by launch date:
+ 
+<img width="435" alt="Screen Shot 2021-10-25 at 9 49 32 PM" src="https://user-images.githubusercontent.com/92277581/139285247-c001dcd8-28fa-450a-b1b7-1f4d1de7178d.png">
+
+Here is the pivot table for only Theater category outcomes by launch date:
   
-   
- <img width="435" alt="Screen Shot 2021-10-25 at 9 49 32 PM" src="https://user-images.githubusercontent.com/92277581/138800679-bd092cf4-2a47-4455-ad2a-6e5d865e6ab0.png">
+   <img width="444" alt="Screen Shot 2021-10-28 at 9 58 54 AM" src="https://user-images.githubusercontent.com/92277581/139282725-6f2585b2-e024-4a15-9f8f-f56d5a812235.png">
 
    
 Next, Created a line chart from the pivot table to visualize the relationship between outcomes and launch month.
@@ -44,7 +48,8 @@ Here is the line chart for the Theatre outcomes based on Launch date:
     
 
 ### Analysis of Outcomes Based on Goals
-
+   Based on Goals, Less Amounts of Goals has more successful outcomes. 
+   
  1. In the new sheet, created the following columns to hold the data:
     Goal
     Number Successful
@@ -72,13 +77,16 @@ Here is "Outcomes Based on Goal" to visualize the relationship between the goal-
 
    While using COUNTIFS(), I was getting wrong data(After using any functions, I always double check through filtering data and count raws, whether my results comes same or different) It took my more time to reach to the concluision that, "I had missed some information". But Learned many new things, While analyzing these whole data.
    
-   For Louise, There are no visible and evident or reasons why only some subcategories are popular. I think that should be challenging for her because her estimation was $12,000 for her Play.
+   (For Louise, There are no visible and evident or reasons why only some subcategories are popular. I think that should be challenging for her because her estimation was $12,000 for her Play.)
    
 ## Results
 
+   The most successful category were in Months of May-July and there there are 525 successful theatre Kickstarters in USA. Also, there are only a total of 604 Kickstarter campaigns for plays in Great Britain with the most successfull catagory is in "Theatre" only.
+    
+
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
     1. As per my analysis, Theatre catagory has most successful outcomes than other catagories and the least successful was food category.
-    2. Month of May-June has more successful outcomes and then it s†arted falling down. 
+    2. Month of May-June has more successful outcomes and then it started falling down. 
     
 - What can you conclude about the Outcomes based on Goals?
 
